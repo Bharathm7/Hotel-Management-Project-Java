@@ -30,3 +30,4 @@ jobs:
         echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "bharathm7" --password-stdin
         docker build -t bharathm7/maven:latest .
         docker push bharathm7/maven:latest
+ 
